@@ -564,7 +564,7 @@ class CartService {
     }
     //배송비용 정보 가져오기
     getShippingPrices() {
-        return this.http.get('/assets/shipping.json');
+        return this.http.get('assets/shipping.json');
     }
 };
 CartService.ctorParameters = () => [

@@ -1114,7 +1114,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getShippingPrices",
         value: function getShippingPrices() {
-          return this.http.get('/assets/shipping.json');
+          return this.http.get('assets/shipping.json');
         }
       }]);
 
